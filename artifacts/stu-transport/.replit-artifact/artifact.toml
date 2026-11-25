@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "STU 91 — Transport express"
+description = "Site vitrine responsive pour Services Transports Urgents (STU 91), avec simulateur de demande de prix indicatif, présentation des solutions et formulaire de devis."
+version = "1.0.0"
+id = "artifacts/stu-transport"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24888
+
+[services.development]
+run = "pnpm --filter @workspace/stu-transport run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/stu-transport", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/stu-transport/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24888"
+BASE_PATH = "/"
