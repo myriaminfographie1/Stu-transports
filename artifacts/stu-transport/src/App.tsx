@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from 'react';
-import stuLogo from '@assets/IMG_2660_1795633578623.png';
+import stuLogo from '@assets/IMG_2660_1795634867187.png';
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, BadgeCheck, Check,
   Clock3, Crosshair, FileText, Globe2, LocateFixed, Mail,
