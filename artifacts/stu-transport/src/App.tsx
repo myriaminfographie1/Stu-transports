@@ -173,7 +173,7 @@ function App() {
         <div className="wrap intro-grid">
           <div className="intro-aside">
             <div className="eyebrow">Solutions transport</div>
-            <h2 className="section-title">Quand c’est urgent, on s’organise.</h2>
+            <h2 className="section-title">STU met à votre disposition son savoir-faire</h2>
             <p className="section-copy">Un interlocuteur pour vos envois urgents et vos besoins de transport. Nous adaptons le véhicule et le délai à votre marchandise.</p>
             <a className="btn btn-dark" href="#devis" data-testid="link-solutions-quote">Parler de votre course <ArrowUpRight size={16} /></a>
           </div>
