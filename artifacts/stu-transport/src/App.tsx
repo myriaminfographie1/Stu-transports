@@ -83,7 +83,7 @@ function App() {
           <a className="brand" href="#accueil" aria-label="STU, accueil" data-testid="link-home">
             <img className="brand-logo" src={stuLogo} alt="" width="124" height="82" data-testid="img-logo-header" />
             <span className="brand-copy">
-              <span className="brand-name">STU 91</span>
+              <span className="brand-name">STU</span>
               <span className="brand-sub">SERVICES TRANSPORTS URGENTS</span>
             </span>
           </a>
