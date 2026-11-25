@@ -191,7 +191,10 @@ function App() {
 
       <section className="section trust-story" aria-labelledby="trust-story-title">
         <div className="wrap trust-story-grid">
-          <img className="trust-story-image" src={trustImage} alt="Vue aérienne du dépôt de Services Transports Urgents à Cheptainville" loading="lazy" />
+          <figure className="trust-story-visual">
+            <img className="trust-story-image" src={trustImage} alt="Vue aérienne du dépôt de Services Transports Urgents" loading="lazy" />
+            <figcaption className="trust-story-location"><MapPin size={15} aria-hidden="true" /> Cheptainville</figcaption>
+          </figure>
           <div className="trust-story-copy">
             <div className="eyebrow">Notre engagement</div>
             <h2 className="section-title" id="trust-story-title">Pourquoi nous faire confiance ?</h2>
