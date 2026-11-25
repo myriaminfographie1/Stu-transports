@@ -250,7 +250,7 @@
   .mobile-nav .btn { margin-top:12px; color:white; }
   .hero { padding:48px 0 52px; }
   .hero-grid { grid-template-columns:1fr; gap:35px; }
-  .hero h1 { font-size:clamp(2.7rem,12vw,4.2rem); }
+  .hero h1 { font-size:clamp(1.8rem,8.6vw,2.15rem); }
   .hero-lede { font-size:.94rem; }
   .quote-card { padding:20px; }
   .trust-inner { grid-template-columns:1fr 1fr; }
