@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react';
+import stuLogo from '@assets/IMG_2660_1795633578623.png';
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, BadgeCheck, Check,
   Clock3, Crosshair, FileText, Globe2, LocateFixed, Mail,
@@ -76,8 +77,7 @@ function App() {
       <header className="header">
         <div className="wrap header-inner">
           <a className="brand" href="#accueil" aria-label="STU, accueil" data-testid="link-home">
-            <span className="brand-mark">STU</span>
-            <span><span className="brand-name">STU 91</span><span className="brand-sub">Services Transports Urgents</span></span>
+            <img className="brand-logo" src={stuLogo} alt="" width="124" height="82" data-testid="img-logo-header" />
           </a>
           <nav className="nav" aria-label="Navigation principale">
             {navItems.map(([label, href]) => <a key={href} href={href} data-testid={`link-nav-${label.toLowerCase().replaceAll(' ', '-')}`}>{label}</a>)}
@@ -253,7 +253,7 @@ function App() {
       <footer className="footer">
         <div className="wrap">
           <div className="footer-grid">
-            <div><a className="brand" href="#accueil" data-testid="link-footer-home"><span className="brand-mark">STU</span><span><span className="brand-name">STU 91</span><span className="brand-sub">Services Transports Urgents</span></span></a><p className="footer-copy">Spécialisé dans le transport express depuis 2009. Paris, Île-de-France, national et Europe — particuliers et professionnels.</p></div>
+            <div><a className="brand" href="#accueil" aria-label="STU, accueil" data-testid="link-footer-home"><img className="brand-logo footer-brand-logo" src={stuLogo} alt="" width="160" height="107" data-testid="img-logo-footer" /></a><p className="footer-copy">Spécialisé dans le transport express depuis 2009. Paris, Île-de-France, national et Europe — particuliers et professionnels.</p></div>
             <div><h3>Explorer</h3><div className="footer-links"><a href="#solutions" data-testid="link-footer-solutions">Solutions</a><a href="#flotte" data-testid="link-footer-fleet">Flotte</a><a href="#zones" data-testid="link-footer-zones">Zones Île-de-France</a><a href="#devis" data-testid="link-footer-quote">Demande de devis</a></div></div>
             <div><h3>Nous contacter</h3><div className="footer-contact">
               <div><MapPin size={16} /><span>6, Rue Pierre Blanche, ZA du Charbonneau,<br />91630 CHEPTAINVILLE</span></div>
