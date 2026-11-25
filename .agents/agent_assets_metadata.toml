@@ -1,0 +1,30 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "_EmabGQTXNCLJHAmMrk98"
+uri = "file://.agents/outputs/site-history/stu91-premiere-version-mobile.jpg"
+type = "image"
+title = "Première version STU 91 — mobile"
+description = "Capture mobile de la première version du site, avant les modifications récentes."
+logical_id = "ecf7e053-a95b-4fc0-86bc-d08e64df238b"
+content_hash = "sha256:fb2be91da5cc3a5f91a495f025c5a13c726adc2f4a3cb25933964ba87f1d4b48"
+size = 45083
+mtime_ms = 1795635718769
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:ea93be03-5272-4f1d-9381-de410cf36d68/ecf7e053-a95b-4fc0-86bc-d08e64df238b/7d7edf47-4413-4b89-8c4a-188b49e7014d"
+storage_version_token = "1795635732272295"
+content_type = "image/jpeg"
+
+[[outputs]]
+id = "23QUfRanY5g4LgrJPIMpP"
+uri = "file://.agents/outputs/site-history/stu91-premiere-version-desktop.jpg"
+type = "image"
+title = "Première version STU 91 — desktop"
+description = "Capture complète de la première version du site, avant les modifications récentes."
+logical_id = "f035653d-2c4b-48d6-96a9-604d16510eda"
+content_hash = "sha256:6b5f33c7b4b178eda177ddda8c996f4c007a21e059845bd63d90ce0ac458b9c1"
+size = 449569
+mtime_ms = 1795635718791
+storage_uri = "gcs://replit-rams-assets-archer/rams/assets/repl:ea93be03-5272-4f1d-9381-de410cf36d68/f035653d-2c4b-48d6-96a9-604d16510eda/aa098e97-fe5c-4fae-991d-a68b962ca51b"
+storage_version_token = "1795635733235868"
+content_type = "image/jpeg"
