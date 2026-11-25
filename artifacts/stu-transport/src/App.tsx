@@ -3,6 +3,7 @@ import stuLogo from '@assets/IMG_2660_1795634867187.png';
 import fleetCarImage from '@assets/IMG_2665_1795636356943.png';
 import fleetVanImage from '@assets/IMG_2666_1795636356943.png';
 import fleetTruckImage from '@assets/IMG_2667_1795636356943.png';
+import trustImage from '@assets/PHOTO_DU_DEPOT_1795643787740.jpg';
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, BadgeCheck, Check,
   Clock3, Crosshair, FileText, Globe2, LocateFixed, Mail,
@@ -184,6 +185,17 @@ function App() {
             <article className="solution"><span className="solution-icon"><LocateFixed size={20} /></span><div><h3>Suivi GSM & géolocalisation</h3><p>Des véhicules équipés pour faciliter le suivi de vos transports.</p></div></article>
             <article className="solution"><span className="solution-icon"><PackageCheck size={20} /></span><div><h3>Particuliers & professionnels</h3><p>Une solution de transport express pensée pour vos besoins.</p></div></article>
             <article className="solution"><span className="solution-icon"><BadgeCheck size={20} /></span><div><h3>Souplesse opérationnelle</h3><p>Réactivité, fiabilité et flexibilité pour organiser chaque course.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section className="section trust-story" aria-labelledby="trust-story-title">
+        <div className="wrap trust-story-grid">
+          <img className="trust-story-image" src={trustImage} alt="Vue aérienne du dépôt de Services Transports Urgents à Cheptainville" loading="lazy" />
+          <div className="trust-story-copy">
+            <div className="eyebrow">Notre engagement</div>
+            <h2 className="section-title" id="trust-story-title">Pourquoi nous faire confiance ?</h2>
+            <p>Notre savoir-faire assure un service efficace, adapté à votre rythme de vie, pour que vos objets précieux arrivent toujours à bon port. Découvrez une solution de transport qui place vos attentes au cœur de son fonctionnement. N'attendez plus pour faire appel à Services Transports Urgents !</p>
           </div>
         </div>
       </section>
