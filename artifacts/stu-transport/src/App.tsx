@@ -9,6 +9,7 @@ import {
   MapPin, Menu, PackageCheck, Phone, Route, ShieldCheck, Truck, X,
 } from 'lucide-react';
 
+const contactEmail = 'Myriam.infographie1@gmail.com';
 const vehicles = [
   { value: 'Voiture', capacity: '1 palette', weight: '400 kg max', image: fleetCarImage, alt: 'Véhicule compact blanc STU', description: 'Documents et petits colis' },
   { value: 'Fourgon', capacity: '3 palettes', weight: '1 400 kg max', image: fleetVanImage, alt: 'Fourgon blanc STU', description: 'Colis et palettes' },
@@ -70,7 +71,7 @@ function App() {
       `Marchandise / précisions : ${quote.details}`,
     ].filter(Boolean).join('\n');
     setStatus('Votre application de messagerie va s’ouvrir avec votre demande préremplie. Pensez à envoyer l’e-mail pour le transmettre à STU.');
-    window.location.href = `mailto:stu@stu91.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   const closeMenu = () => setMenuOpen(false);
@@ -221,7 +222,7 @@ function App() {
             <div className="zone-row"><span className="zone-letter">A</span><div><h3>Zone A · proximité</h3><p>Sous-zones : 77A, 78A, 91A, 95A. Sélectionnez le code souhaité pour départ et arrivée.</p></div></div>
             <div className="zone-row"><span className="zone-letter">B</span><div><h3>Zone B · périphérie</h3><p>Sous-zones : 77B, 78B, 91B, 95B. Les départements 92, 93 et 94 sont également proposés.</p></div></div>
             <div className="zone-row"><span className="zone-letter">C</span><div><h3>Zone C · éloignée</h3><p>Sous-zones : 77C, 78C, 91C, 95C. Paris (75) figure aussi dans les zones sélectionnables.</p></div></div>
-            <p className="zone-note">La grille complète est disponible sur demande auprès du service commercial. Appelez le <a href="tel:0160831300" data-testid="link-zone-phone" style={{ color: '#fff' }}>01 60 83 13 00</a> ou écrivez à <a href="mailto:stu@stu91.com" data-testid="link-zone-email" style={{ color: '#fff' }}>stu@stu91.com</a>.</p>
+            <p className="zone-note">La grille complète est disponible sur demande auprès du service commercial. Appelez le <a href="tel:0160831300" data-testid="link-zone-phone" style={{ color: '#fff' }}>01 60 83 13 00</a> ou écrivez à <a href={`mailto:${contactEmail}`} data-testid="link-zone-email" style={{ color: '#fff' }}>{contactEmail}</a>.</p>
           </div>
         </div>
       </section>
@@ -266,7 +267,7 @@ function App() {
               <div><MapPin size={16} /><span>6, Rue Pierre Blanche, ZA du Charbonneau,<br />91630 CHEPTAINVILLE</span></div>
               <div><Phone size={16} /><a href="tel:0160831300" data-testid="link-footer-phone">01 60 83 13 00</a></div>
               <div><FileText size={16} /><span>Fax : 01 60 83 08 00</span></div>
-              <div><Mail size={16} /><a href="mailto:stu@stu91.com" data-testid="link-footer-email">stu@stu91.com</a></div>
+              <div><Mail size={16} /><a href={`mailto:${contactEmail}`} data-testid="link-footer-email">{contactEmail}</a></div>
             </div></div>
           </div>
           <div className="legal-line"><p>SIRET : 519 377 055 00024<br />Tarifs HT Ile-de-France en vigueur à partir du 1er juin 2025, donnés à titre indicatif, sous réserve de modification / Hors surcharge de gazole.</p><span>Services Transports Urgents — STU</span></div>
