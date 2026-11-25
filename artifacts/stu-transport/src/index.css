@@ -98,7 +98,6 @@
 .header-inner { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 26px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; text-decoration: none; color: #0f172a; flex-shrink: 0; }
 .brand-logo { display: block; width: 124px; height: 82px; object-fit: contain; }
-.footer-brand-logo { width: 160px; height: 107px; }
 .nav { display:flex; align-items:center; gap:27px; }
 .nav a { color:#334155; font-size:.83rem; font-weight:600; text-decoration:none; transition:color .2s; }
 .nav a:hover { color:#dc2626; }
@@ -241,7 +240,6 @@
   .menu-button { display:flex; }
   .mobile-nav { display:flex; position:absolute; top:78px; left:0; right:0; background:white; border-bottom:1px solid #e2e8f0; padding:12px 18px 20px; flex-direction:column; box-shadow:0 14px 24px rgba(15,23,42,.08); }
   .brand-logo { width: 108px; height: 72px; }
-  .footer-brand-logo { width: 144px; height: 96px; }
   .mobile-nav a { color:#0f172a; text-decoration:none; padding:13px 4px; border-bottom:1px solid #eef2f6; font-size:.9rem; font-weight:600; }
   .mobile-nav .btn { margin-top:12px; color:white; }
   .hero { padding:48px 0 52px; }
