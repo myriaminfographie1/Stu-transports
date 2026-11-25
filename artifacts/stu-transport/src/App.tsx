@@ -100,7 +100,7 @@ function App() {
         <div className="wrap hero-grid">
           <div className="reveal">
             <div className="hero-kicker"><span /> Depuis 2009 · GSM & géolocalisation</div>
-            <h1>Le transport urgent, <em>sans détour.</em></h1>
+            <h1>Services Transports Urgents - Courses Express</h1>
             <p className="hero-lede">Documents, colis et palettes pris en charge avec le véhicule adapté. Des courses dédiées depuis Cheptainville, en Île-de-France, partout en France et en Europe.</p>
             <div className="hero-buttons">
               <a className="btn" href="#devis" data-testid="link-hero-quote">Organiser un transport <ArrowRight size={16} /></a>
