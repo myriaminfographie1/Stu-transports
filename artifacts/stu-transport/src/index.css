@@ -157,6 +157,7 @@
 .intro-aside { position:sticky; top:115px; }
 .intro-aside .section-title { margin:15px 0 18px; }
 .intro-aside .section-copy { max-width:380px; }
+.intro-aside .btn { display:flex; width:max-content; margin-top:28px; }
 .solution-list { display:grid; grid-template-columns:1fr 1fr; gap:0 28px; }
 .solution { padding:21px 0; border-top:1px solid #e2e8f0; display:flex; gap:15px; }
 .solution-icon { flex:none; width:42px; height:42px; border-radius:10px; background:#fff1f2; color:#dc2626; display:grid; place-items:center; }
