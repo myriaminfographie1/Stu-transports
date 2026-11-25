@@ -1,5 +1,8 @@
 import { useState, type FormEvent } from 'react';
 import stuLogo from '@assets/IMG_2660_1795634867187.png';
+import fleetCarImage from '@assets/IMG_2665_1795636356943.png';
+import fleetVanImage from '@assets/IMG_2666_1795636356943.png';
+import fleetTruckImage from '@assets/IMG_2667_1795636356943.png';
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, BadgeCheck, Check,
   Clock3, Crosshair, FileText, Globe2, LocateFixed, Mail,
@@ -7,9 +10,9 @@ import {
 } from 'lucide-react';
 
 const vehicles = [
-  { value: 'Voiture', capacity: '1 palette', weight: '400 kg max', image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1000&q=85', alt: 'Véhicule léger stationné en ville', description: 'Documents et petits colis' },
-  { value: 'Fourgon', capacity: '3 palettes', weight: '1 400 kg max', image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=85', alt: 'Fourgon de transport sur la route', description: 'Colis et palettes' },
-  { value: 'Camion 20 m³', capacity: '6 palettes', weight: '1 000 kg max', image: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1000&q=85', alt: 'Camion de transport de marchandises', description: 'Volumes et marchandises' },
+  { value: 'Voiture', capacity: '1 palette', weight: '400 kg max', image: fleetCarImage, alt: 'Véhicule compact blanc STU', description: 'Documents et petits colis' },
+  { value: 'Fourgon', capacity: '3 palettes', weight: '1 400 kg max', image: fleetVanImage, alt: 'Fourgon blanc STU', description: 'Colis et palettes' },
+  { value: 'Camion 20 m³', capacity: '6 palettes', weight: '1 000 kg max', image: fleetTruckImage, alt: 'Camion caisse blanc STU', description: 'Volumes et marchandises' },
 ];
 const deadlines = ['Direct', '3h', '4h', '6h'];
 const areas = ['75', '77A', '77B', '77C', '78A', '78B', '78C', '91A', '91B', '91C', '92', '93', '94', '95A', '95B', '95C'];
