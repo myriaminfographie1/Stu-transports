@@ -3,7 +3,6 @@ import stuLogo from '@assets/IMG_2660_1795634867187.png';
 import fleetCarImage from '@assets/IMG_2665_1795636356943.png';
 import fleetVanImage from '@assets/IMG_2666_1795636356943.png';
 import fleetTruckImage from '@assets/IMG_2667_1795636356943.png';
-import depotImage from '@assets/PHOTO_DU_DEPOT_1795642986677.jpeg';
 import {
   ArrowDownRight, ArrowRight, ArrowUpRight, BadgeCheck, Check,
   Clock3, Crosshair, FileText, Globe2, LocateFixed, Mail,
@@ -212,10 +211,6 @@ function App() {
             <div className="eyebrow">Couverture Île-de-France</div>
             <h2 className="section-title">Au départ du 91, partout en région.</h2>
             <p className="section-copy">La tarification francilienne s’appuie sur des zones et sous-zones. Sélectionnez-les dans le simulateur pour préparer votre demande de tarif.</p>
-            <figure className="depot-photo">
-              <img src={depotImage} alt="Vue aérienne du dépôt STU à Cheptainville" />
-              <figcaption><MapPin size={15} aria-hidden="true" /> Notre dépôt à Cheptainville</figcaption>
-            </figure>
             <div className="coverage-chips" aria-label="Départements et sous-zones disponibles">
               {areas.map((area) => <span className="chip" key={area} data-testid={`chip-zone-${area.toLowerCase()}`}>{area}</span>)}
             </div>

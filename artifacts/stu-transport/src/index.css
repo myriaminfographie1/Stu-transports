@@ -194,10 +194,6 @@
 .zone-row h3 { margin:0 0 6px; font:700 .88rem var(--app-font-display); }
 .zone-row p { color:#b7c3d1; font-size:.75rem; line-height:1.65; margin:0; }
 .zone-note { margin:18px 0 0; padding-top:15px; border-top:1px solid rgba(255,255,255,.15); font-size:.72rem; color:#c7d1dd; line-height:1.6; position:relative; z-index:1; }
-.depot-photo { position:relative; margin:24px 0 0; overflow:hidden; aspect-ratio:16/9; border-radius:12px; background:#dce4eb; box-shadow:0 10px 28px rgba(15,23,42,.12); }
-.depot-photo img { display:block; width:100%; height:100%; object-fit:cover; object-position:center 54%; }
-.depot-photo figcaption { position:absolute; left:12px; bottom:12px; display:flex; align-items:center; gap:7px; padding:9px 12px; border:1px solid rgba(255,255,255,.72); border-radius:7px; background:rgba(255,255,255,.94); color:#0f172a; font-size:.75rem; font-weight:700; box-shadow:0 3px 12px rgba(15,23,42,.12); }
-.depot-photo figcaption svg { color:#dc2626; flex:none; }
 .coverage-chips { display:flex; flex-wrap:wrap; gap:7px; margin-top:22px; }
 .chip { background:#f1f5f9; color:#475569; padding:7px 10px; border-radius:4px; font-size:.69rem; font-weight:700; }
 .quote-section { background:#f1f5f9; }
