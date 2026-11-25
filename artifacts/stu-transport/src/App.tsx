@@ -196,7 +196,7 @@ function App() {
           </div>
           <div className="fleet-grid">
             {vehicles.map((vehicle, index) => <article className="vehicle-card" key={vehicle.value} data-testid={`card-vehicle-${index + 1}`}>
-              <div className="vehicle-visual"><img src={vehicle.image} alt={vehicle.alt} loading="lazy" /><span className="vehicle-number">0{index + 1}</span></div>
+              <div className="vehicle-visual"><img src={vehicle.image} alt={vehicle.alt} loading="lazy" /></div>
               <div className="vehicle-content"><h3>{vehicle.value}</h3><p>{vehicle.description}</p>
                 <div className="specs"><div className="spec"><strong>{vehicle.capacity}</strong><span>Capacité palettes</span></div><div className="spec"><strong>{vehicle.weight}</strong><span>Charge maximale</span></div></div>
               </div>

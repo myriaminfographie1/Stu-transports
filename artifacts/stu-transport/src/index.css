@@ -171,7 +171,6 @@
 .vehicle-visual { position:relative; height:200px; overflow:hidden; background:#dce4eb; }
 .vehicle-visual img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .5s; }
 .vehicle-card:hover img { transform:scale(1.04); }
-.vehicle-number { position:absolute; top:14px; left:14px; width:34px; height:34px; border-radius:50%; background:#dc2626; color:white; display:grid; place-items:center; font:700 .8rem var(--app-font-display); }
 .vehicle-content { padding:22px; }
 .vehicle-content h3 { margin:0; font:700 1.15rem var(--app-font-display); }
 .vehicle-content>p { color:#64748b; font-size:.8rem; margin:7px 0 18px; }
