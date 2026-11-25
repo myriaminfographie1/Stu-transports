@@ -121,7 +121,7 @@
 .hero-grid { display:grid; grid-template-columns:1.04fr .96fr; align-items:center; gap:56px; position:relative; }
 .hero-kicker { display:inline-flex; align-items:center; gap:8px; padding:8px 12px; color:#334155; background:white; border:1px solid #e2e8f0; border-radius:30px; font-size:.73rem; font-weight:700; }
 .hero-kicker span { width:7px; height:7px; border-radius:50%; background:#dc2626; box-shadow:0 0 0 4px #fee2e2; }
-.hero h1 { font:800 clamp(2.6rem,5vw,4.65rem)/1.04 var(--app-font-display); letter-spacing:-.065em; color:#0f172a; margin:22px 0 18px; max-width:690px; }
+.hero h1 { font:800 54px/1.04 var(--app-font-display); letter-spacing:-.065em; color:#0f172a; margin:22px 0 18px; max-width:690px; }
 .hero h1 em { color:#dc2626; font-style:normal; }
 .hero-lede { font-size:1.04rem; line-height:1.75; color:#526174; max-width:540px; margin:0; }
 .hero-buttons { display:flex; flex-wrap:wrap; gap:12px; margin:28px 0 35px; }
