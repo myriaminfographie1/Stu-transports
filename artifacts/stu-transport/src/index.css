@@ -163,7 +163,7 @@
 .solution-icon { flex:none; width:42px; height:42px; border-radius:10px; background:#fff1f2; color:#dc2626; display:grid; place-items:center; }
 .solution h3 { font:700 .96rem var(--app-font-display); margin:1px 0 7px; }
 .solution p { margin:0; color:#64748b; line-height:1.65; font-size:.8rem; }
-.trust-story { background:#f8fafc; padding-top:64px; }
+.trust-story { background:#f8fafc; padding-top:64px; border-top:1px solid #e2e8f0; }
 .trust-story-grid { display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:center; }
 .trust-story-visual { position:relative; margin:0; }
 .trust-story-image { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:16px; box-shadow:0 18px 42px rgba(15,23,42,.14); }

@@ -19,7 +19,7 @@ const vehicles = [
 const deadlines = ['Direct', '3h', '4h', '6h'];
 const areas = ['75', '77A', '77B', '77C', '78A', '78B', '78C', '91A', '91B', '91C', '92', '93', '94', '95A', '95B', '95C'];
 const navItems = [
-  ['Solutions', '#solutions'], ['Flotte & tarifs', '#flotte'], ['Zones IDF', '#zones'], ['Devis', '#devis'],
+  ['Solutions', '#solutions'], ['Notre engagement', '#engagement'], ['Flotte & tarifs', '#flotte'], ['Zones IDF', '#zones'], ['Devis', '#devis'],
 ];
 
 type QuoteData = {
@@ -189,7 +189,7 @@ function App() {
         </div>
       </section>
 
-      <section className="section trust-story" aria-labelledby="trust-story-title">
+      <section className="section trust-story" id="engagement" aria-labelledby="trust-story-title">
         <div className="wrap trust-story-grid">
           <figure className="trust-story-visual">
             <img className="trust-story-image" src={trustImage} alt="Vue aérienne du dépôt de Services Transports Urgents" loading="lazy" />
